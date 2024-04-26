@@ -355,6 +355,16 @@ html .clear-completed:active {
   line-height: 0.1em;
 }
 
+.btn {
+  background-color: greenyellow;
+  border: 2px solid green;
+}
+
+.btn:hover {
+  background-color: rgb(105, 158, 24);
+  border: 2px solid black;
+}
+
 /*
   Hack to remove background from Mobile Safari.
   Can't use it globally since it destroys checkboxes in Firefox

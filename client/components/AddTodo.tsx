@@ -41,7 +41,6 @@ export function AddTodo() {
         <input
           className="new-todo"
           placeholder="What needs to be done?"
-          autoFocus={true}
           onChange={handleChange}
           value={newTodo}
           id="name"
@@ -54,9 +53,8 @@ export function AddTodo() {
           <option value="4">4</option>
           <option value="5">5</option>
         </select>
-        <button>Submit todo</button>
+        <button className="btn">Submit todo</button>
       </form>
     </>
   )
 }
-

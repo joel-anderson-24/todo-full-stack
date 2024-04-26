@@ -33,12 +33,11 @@ export function DeleteTodo() {
         <input
           className="new-todo"
           placeholder="Type a task ID to delete"
-          autoFocus={true}
           onChange={handleChange}
           value={deleteTodo}
           id="delete"
         ></input>
-        <button>Delete todo</button>
+        <button className="btn">Delete todo</button>
       </form>
     </>
   )
