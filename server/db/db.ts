@@ -11,7 +11,6 @@ export async function getTodosById(id: number): Promise<Todos> {
   return db('todos').where({ id }).select().first()
 }
 
-// fixed
 export async function updateTodo(
   id: number,
   newTodo: {
